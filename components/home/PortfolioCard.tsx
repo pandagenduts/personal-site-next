@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const PortfolioCard = () => {
-  return (
-    <div>PortfolioCard</div>
-  )
-}
+  return <div>PortfolioCard</div>;
+};
 
-export default PortfolioCard
+export default PortfolioCard;

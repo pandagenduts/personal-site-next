@@ -1,3 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --mainBlue: #0029FF;
+  --mainBlueHover: #002aff80;
+  --secondaryRed: #FF007A;
+  --textGrey: #415161;
+  --bgWhite: #F4F5F6;
+}
+
+* {
+  box-sizing: border-box;
+  /* color: #002aff67; */
+}
+
+html, button {
+  font-family: 'Poppins', sans-serif;
+  color: var(--textGrey);
+}
+
+body {
+  margin: 0;
+  background-color: var(--bgWhite);
+}
+
+body.active {
+  overflow: hidden;
+}
+
+h1 {
+  @apply text-2xl mb-4 font-bold font-montserrat;
+}
+
+h2 {
+  @apply text-xl mb-3 font-bold font-montserrat;
+}
+
+h3 {
+  @apply text-lg mb-3 font-bold font-montserrat;
+}
+
+h4 {
+  @apply text-base mb-2 font-bold font-montserrat;
+}
+
+p {
+  @apply text-sm mb-6;
+}
+
+/* #modal #backdrop {
+  backdrop-filter: blur(2px);
+} */
+
+::-webkit-scrollbar-track {
+  background-color: #D9D9D9;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--mainBlue);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsla(239, 97%, 64%, 0.6);
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+@media (min-width: 900px) {
+  h1 {
+    @apply text-3xl;
+  }
+  
+  h2 {
+    @apply text-2xl;
+  }
+  
+  h3 {
+    @apply text-xl;
+  }
+  
+  h4 {
+    @apply text-lg;
+  }
+}
