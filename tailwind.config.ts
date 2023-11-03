@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
-        poppins: ['Poppins', 'sans-serif'],
+        montserrat: ['var(--font-montserrat)'],
+        poppins: ['var(--font-poppins)'],
       },
       colors: {
         bluePrimary: 'var(--mainBlue)',
