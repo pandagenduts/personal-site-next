@@ -1,13 +1,14 @@
 import { useDispatch } from 'react-redux';
 import { modalActions } from '../../redux/modal';
+import { ProjectData } from './types';
 
-const PortfolioCard = ({ itemData }) => {
+const PortfolioCard = ({ itemData }: { itemData: ProjectData }) => {
   const { title, imageCover } = itemData;
   const dispatch = useDispatch();
 
   const handleClick = () => {
     dispatch(modalActions.modalDataUpdate(itemData));
-    dispatch(modalActions.toggleModal())
+    dispatch(modalActions.toggleModal());
   };
 
   return (

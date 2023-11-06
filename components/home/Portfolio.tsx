@@ -7,10 +7,13 @@ import {
   htmlProjectDatas,
 } from '../../datas/portfolioDatas';
 import PortfolioCard from './PortfolioCard';
+import { ProjectData } from './types';
+
+type CardCategory = 'REACT' | 'WORDPRESS' | 'HTML';
 
 const Portfolio = () => {
-  const [cardCategory, setCardCategory] = useState<string>('REACT');
-  const [projectDatas, setProjectDatas] = useState<any>(reactProjectDatas);
+  const [cardCategory, setCardCategory] = useState<CardCategory>('REACT');
+  const [projectDatas, setProjectDatas] = useState<ProjectData[]>(reactProjectDatas);
 
   const buttonClasses = 'duration-150 hover:text-bluePrimary';
 
@@ -51,7 +54,7 @@ const Portfolio = () => {
         </button>
       </div>
       <div className='grid h-auto  grid-cols-1 gap-4 sm:w-full sm:grid-cols-2 lg:grid-cols-3 '>
-        {projectDatas.map((item, index) => (
+        {projectDatas.map((item: ProjectData, index: number) => (
           <PortfolioCard key={index} itemData={item} />
         ))}
       </div>
