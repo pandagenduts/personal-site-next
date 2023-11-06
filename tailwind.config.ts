@@ -7,6 +7,12 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        "2xl": "1250px",
+      },
+    },
     extend: {
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],

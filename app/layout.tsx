@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Frontend React Next JS - Donny Rendi',
+  title: 'Donny Rendi | Frontend Next JS Dev',
   description: "Donny Rendi's Personal Site",
 };
 
