@@ -6,7 +6,7 @@ type Modaldata = {
 } | null;
 
 const initialState = {
-  isShowModal: true,
+  isShowModal: false,
   modalData: null as Modaldata,
 };
 
