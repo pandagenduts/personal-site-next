@@ -1,13 +1,9 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-
-type Modaldata = {
-  title: string;
-  content?: string;
-} | null;
+import { ProjectData } from '@/components/home/types';
 
 const initialState = {
   isShowModal: false,
-  modalData: null as Modaldata,
+  modalData: {} as ProjectData,
 };
 
 const modalSlice = createSlice({
@@ -17,12 +13,12 @@ const modalSlice = createSlice({
     toggleModal: (state) => {
       state.isShowModal = !state.isShowModal;
     },
-    modalDataUpdate: (state, action: PayloadAction<Modaldata>) => {
+    modalDataUpdate: (state, action) => {
       state.modalData = action.payload;
     },
   },
 });
 
-export const modalActions = modalSlice.actions;
-
 export default modalSlice.reducer;
+
+export const modalActions = modalSlice.actions;

@@ -3,14 +3,16 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { modalActions } from '../../redux/modal';
+import { useAppSelector } from '@/redux/hooks';
 import IFrame from './components/IFrame';
 import Pill from '../layout/Pill';
+
 
 const Modal = () => {
   const [deviceView, setDeviceView] = useState('DESKTOP');
   const dispatch = useDispatch();
 
-  const { modalData } = useSelector((state) => state.theModal);
+  const { modalData } = useAppSelector((state) => state.theModal);
 
   const {
     title,
@@ -55,7 +57,6 @@ const Modal = () => {
         <IFrame
           projectURL={projectURL}
           figmaEmbedURL={figmaEmbedURL}
-          figma
           handleDeviceWidth={handleDeviceWidth}
           deviceView={deviceView}
         />

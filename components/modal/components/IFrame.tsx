@@ -12,8 +12,8 @@ import HyperLink from "../../layout/HyperLink";
 import { useState } from "react";
 
 type IFrameProps = {
-  projectURL: string;
-  figmaEmbedURL: string;
+  projectURL: string | undefined;
+  figmaEmbedURL: string | undefined;
   handleDeviceWidth: (device: 'DESKTOP' | 'TABLET' | 'MOBILE') => void;
   deviceView: string;
 }
@@ -106,7 +106,7 @@ const IFrame = ({
             width="100%"
             height="107%"
             src={figmaEmbedURL}
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         )}
         {figmaEmbedURL && (
