@@ -1,3 +1,5 @@
+import { reactProjectDatas, wordpressProjectDatas, htmlProjectDatas } from "@/datas/portfolioDatas";
+
 type ParamsType = {
   params: {
     slug: string;
@@ -14,6 +16,9 @@ export async function getStaticPaths() {
     { params: { slug: 'qwe' } },
     { params: { slug: 'zxc' } },
   ];
+
+  const paths2 = []
+  
 
   return {
     paths,

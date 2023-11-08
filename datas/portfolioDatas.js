@@ -1,25 +1,3 @@
-// React
-// import InputComp from "/Input Component Alt.png";
-// import ButtonComp from "/Button Component Alt.png";
-// import Windbnb from "/Windbnb.png";
-// import FoodOrderApp from "/Food Order App.png";
-// import PixelOverture from "/Pixel Overture.png";
-
-// WordPress
-// import SpaceTourism from "/space-tourism.png";
-// import Luxe from "/Luxe.png";
-// import BrandsIo from "/brands-io.png";
-// import FurniShop from "/furni-shop.png";
-// import PivotLight from "/Pivot Light.png";
-// import ZhongXinDark from "/Zhong Xin Dark.png";
-// import DongmulFood from "/Dongmul Food.png";
-
-// HTML
-// import Portfolio from "/Portfolio.png";
-// import RecipeBlog from "/Recipe Blog.png";
-// import CheckoutPage from "/Checkout Page.png";
-// import EdieHomepage from "/Edie Homepage.png";
-
 const reactProjectDatas = [
   {
     title: "Pixel Overture",
