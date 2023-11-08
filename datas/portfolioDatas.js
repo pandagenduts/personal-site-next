@@ -1,6 +1,7 @@
 const reactProjectDatas = [
   {
     title: "Pixel Overture",
+    slug: "pixel-overture",
     imageCover: '/Pixel Overture.png',
     projectURL: "https://pixel-overture-site.vercel.app",
     figmaEmbedURL:
@@ -16,6 +17,7 @@ const reactProjectDatas = [
   },
   {
     title: "Windbnb",
+    slug: "windbnb",
     imageCover: '/Windbnb.png',
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKGNH8dbclXT1vzXLyPrBeu%2FWindbnb%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DWkEFfoeSPRckTOY7-1",
@@ -36,6 +38,7 @@ const reactProjectDatas = [
   },
   {
     title: "Food Ordering App",
+    slug: "food-ordering-app",
     imageCover: '/Food Order App.png',
     projectURL: "https://react-food-v2.netlify.app/",
     description: [
@@ -51,6 +54,7 @@ const reactProjectDatas = [
   },
   {
     title: "Reusable Component: Input",
+    slug: "reusable-component-input",
     imageCover: '/Input Component Alt.png',
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FslzHnI05qpbBeC33ZMZGa5%2Finput-component%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DWkEFfoeSPRckTOY7-1",
@@ -66,6 +70,7 @@ const reactProjectDatas = [
   },
   {
     title: "Reusable Component: Button",
+    slug: "reusable-component-button",
     imageCover: '/Button Component Alt.png',
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FvfMDJhGGnqfaskO2aud06o%2Fbutton-component%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DWkEFfoeSPRckTOY7-1",
@@ -84,6 +89,7 @@ const reactProjectDatas = [
 const wordpressProjectDatas = [
   {
     title: "Dongmul Food",
+    slug: "dongmul-food",
     imageCover: '/Dongmul Food.png',
     projectURL: "https://dongmulfood.com/",
     description: [
@@ -106,6 +112,7 @@ const wordpressProjectDatas = [
   },
   {
     title: "ZhongXin",
+    slug: "zhongxin",
     imageCover: '/Zhong Xin Dark.png',
     projectURL: "https://zhongxin-sg.com/en/",
     description: [
@@ -119,6 +126,7 @@ const wordpressProjectDatas = [
   },
   {
     title: "Pivot SG",
+    slug: "pivot-sg",
     imageCover: '/Pivot Light.png',
     projectURL: "https://pivot.sg/",
     description: [
@@ -133,6 +141,7 @@ const wordpressProjectDatas = [
   },
   {
     title: "Luxe",
+    slug: "luxe",
     imageCover: '/Luxe.png',
     projectURL: "https://luxe.portogarage.com/",
     description: [
@@ -147,6 +156,7 @@ const wordpressProjectDatas = [
   },
   {
     title: "Brands io",
+    slug: "brands-io",
     imageCover: '/brands-io.png',
     projectURL: "https://brands-io.portogarage.com/",
     description: [
@@ -161,6 +171,7 @@ const wordpressProjectDatas = [
   },
   {
     title: "Furni shop",
+    slug: "furni-shop",
     imageCover: '/furni-shop.png',
     projectURL: "https://furnishop.portogarage.com/",
     figmaEmbedURL:
@@ -177,6 +188,7 @@ const wordpressProjectDatas = [
   },
   {
     title: "Space Tourism",
+    slug: "space-tourism",
     imageCover: '/space-tourism.png',
     projectURL: "https://pandagenduts-space-tourism-2.netlify.app/",
     figmaEmbedURL:
@@ -197,6 +209,7 @@ const wordpressProjectDatas = [
 const htmlProjectDatas = [
   {
     title: "Portfolio",
+    slug: "portfolio",
     imageCover: '/Portfolio.png',
     projectURL: "https://pandagenduts-portfolio-devchallenges.netlify.app/",
     figmaEmbedURL:
@@ -211,6 +224,7 @@ const htmlProjectDatas = [
   },
   {
     title: "Edie Homepage",
+    slug: "edie-homepage",
     imageCover: '/Edie Homepage.png',
     projectURL: "https://pandagenduts-edie-homepage.netlify.app/",
     figmaEmbedURL:
@@ -225,6 +239,7 @@ const htmlProjectDatas = [
   },
   {
     title: "Recipe Blog",
+    slug: "recipe-blog",
     imageCover: '/Recipe Blog.png',
     projectURL: "https://pandagenduts-recipe-page.netlify.app/",
     figmaEmbedURL:
@@ -239,6 +254,7 @@ const htmlProjectDatas = [
   },
   {
     title: "Checkout Page",
+    slug: "checkout-page",
     imageCover: '/Checkout Page.png',
     projectURL: "https://pandagenduts-checkout-page.netlify.app/",
     figmaEmbedURL:
@@ -253,4 +269,10 @@ const htmlProjectDatas = [
   },
 ];
 
-export { reactProjectDatas, wordpressProjectDatas, htmlProjectDatas };
+const allPortfolioDatas = [
+  ...reactProjectDatas,
+  ...wordpressProjectDatas,
+  ...htmlProjectDatas
+]
+
+export { allPortfolioDatas, reactProjectDatas, wordpressProjectDatas, htmlProjectDatas };
