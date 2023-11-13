@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { modalActions } from '../../redux/modal';
 import { useAppSelector } from '@/redux/hooks';
-import IFrame from './components/IFrame';
+import IFrameModal from './components/IFrameModal';
 import Pill from '../layout/Pill';
 
 
@@ -54,7 +54,7 @@ const Modal = () => {
         id='content'
         className={`z-20 h-full w-full overflow-y-auto rounded-2xl bg-bgWhite transition-all duration-300 ${contentWidth}`}
       >
-        <IFrame
+        <IFrameModal
           projectURL={projectURL}
           figmaEmbedURL={figmaEmbedURL}
           handleDeviceWidth={handleDeviceWidth}

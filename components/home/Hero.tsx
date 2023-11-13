@@ -31,27 +31,11 @@ const Hero = () => {
           experience in HTML, CSS, JavaScript and WordPress.
         </p>
         <p>
-          Over my career, I've worked on dozens of professional websites across
-          countries, including Indonesia, Singapore, Australia, Europe, and the
-          US.
+          Specializing in slicing Figma design pixel-perfectly and responsive.
+          Exceptional attention to detail.
         </p>
-        <p>
-          Also a founder & leader of 280+ member non-profit organization,
-          Devsigner Labs.
-        </p>
-        <p>
-          A reliable individual with strong communication and teamwork skills.
-        </p>
-        <p>
-          Exceptional attention to detail, pixel-perfect has always been my
-          approach.
-        </p>
-        <p className='mb-12'>
-          Currently open to any opportunity as a FrontEnd React Next JS
-          Developer. <br />
-          Feel free to check out my works below 🙂
-        </p>
-        <p className='m-0 text-xs'>
+        <p>Let my works do the talk below 🙂</p>
+        <p className='mt-12 text-xs'>
           PS: I didn't do the design, only the development part. Source is
           stated
         </p>

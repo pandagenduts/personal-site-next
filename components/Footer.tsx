@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <p className="mt-8 text-sm text-center">© 2023 PandaGenduts</p>
+      <p className="mt-16 text-sm text-center">© 2023 PandaGenduts</p>
     </footer>
   )
 }

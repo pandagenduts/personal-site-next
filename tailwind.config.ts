@@ -28,6 +28,7 @@ const config: Config = {
       boxShadow: {
         bsRound: '5px 5px 0 3px var(--mainBlue)',
         bsRound2: '16px 16px 8px -5px rgba(0, 0, 0, 0.3)',
+        bsIframe: '0px 10px 15px 10px rgba(0, 0, 0, 0.3)',
         bsCust1: '0px 1px 8px -5px rgba(0, 0, 0, 0.3)',
       },
       fontSize: {
