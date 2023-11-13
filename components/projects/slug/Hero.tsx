@@ -30,7 +30,7 @@ export default function Hero(props: Props) {
 
   return (
     <section
-      className={`${sectionWidth} duration-150 mx-auto px-2 h-[800px] flex flex-col`}
+      className={`${sectionWidth} duration-300 mx-auto px-2 h-[80vh] min-h-[500px] flex flex-col`}
     >
       <IFrameStatic
         projectURL={projectURL}

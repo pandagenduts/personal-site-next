@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Montserrat, Poppins } from 'next/font/google';
 import './globals.css';
-import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ReduxProvider from '@/redux/ReduxProvider';
 
@@ -31,7 +30,6 @@ export default function RootLayout({
         className={`${poppins.className} ${poppins.variable} ${montserrat.variable}`}
       >
         <ReduxProvider>
-          <Header />
           <main className='pt-9'>{children}</main>
           <Footer />
         </ReduxProvider>
