@@ -9,6 +9,7 @@ import {
 import HyperLink from '../../layout/HyperLink';
 import { useState } from 'react';
 import { DeviceType } from './types';
+import Link from 'next/link';
 
 type IFrameProps = {
   projectURL: string | undefined;
@@ -34,14 +35,15 @@ const IFrameStatic = (props: IFrameProps) => {
           deviceView === 'MOBILE' ? 'justify-center' : 'justify-between'
         } py-3 px-4 md:px-6 md:py-4`}
       >
-        <button
+        <Link
+          href='/projects'
           className={`${
             deviceView === 'MOBILE' ? 'hidden' : ''
           } flex cursor-pointer items-center gap-2 border-none bg-transparent text-sm font-medium text-white`}
         >
           <FaLongArrowAltLeft />
           Back
-        </button>
+        </Link>
         <div className='hidden md:flex md:gap-6'>
           <button
             className={`hidden ${responsiveSelectorClasses} lg:flex ${
