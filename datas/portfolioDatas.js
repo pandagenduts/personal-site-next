@@ -2,7 +2,7 @@ const reactProjectDatas = [
   {
     title: "Pixel Overture",
     slug: "pixel-overture",
-    imageCover: '/Pixel Overture.png',
+    imageCover: '/pixel-overture.png',
     projectURL: "https://pixel-overture-site.vercel.app",
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FiiFFG2TNZXGeSGwHcYEscz%2FPixel-Overture%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DkXoYlrOuZpOEh7Wk-1",
@@ -39,7 +39,7 @@ const reactProjectDatas = [
   {
     title: "Food Ordering App",
     slug: "food-ordering-app",
-    imageCover: '/Food Order App.png',
+    imageCover: '/food-order-app.png',
     projectURL: "https://react-food-v2.netlify.app/",
     description: [
       "User and chose menus, add it to the cart and place an order.",
@@ -55,7 +55,7 @@ const reactProjectDatas = [
   {
     title: "Reusable Component: Input",
     slug: "reusable-component-input",
-    imageCover: '/Input Component Alt.png',
+    imageCover: '/input-component-alt.png',
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FslzHnI05qpbBeC33ZMZGa5%2Finput-component%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DWkEFfoeSPRckTOY7-1",
     projectURL: "https://donny-button-input-devchallenges.netlify.app/input",
@@ -71,7 +71,7 @@ const reactProjectDatas = [
   {
     title: "Reusable Component: Button",
     slug: "reusable-component-button",
-    imageCover: '/Button Component Alt.png',
+    imageCover: '/button-component-alt.png',
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FvfMDJhGGnqfaskO2aud06o%2Fbutton-component%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DWkEFfoeSPRckTOY7-1",
     projectURL: "https://donny-button-input-devchallenges.netlify.app/buttons",
@@ -90,7 +90,7 @@ const wordpressProjectDatas = [
   {
     title: "Dongmul Food",
     slug: "dongmul-food",
-    imageCover: '/Dongmul Food.png',
+    imageCover: '/dongmul-food.png',
     projectURL: "https://dongmulfood.com/",
     description: [
       "An Online-Shop Website",
@@ -113,7 +113,7 @@ const wordpressProjectDatas = [
   {
     title: "ZhongXin",
     slug: "zhongxin",
-    imageCover: '/Zhong Xin Dark.png',
+    imageCover: '/zhong-xin-dark.png',
     projectURL: "https://zhongxin-sg.com/en/",
     description: [
       "User can choose Chinese or English language.",
@@ -127,7 +127,7 @@ const wordpressProjectDatas = [
   {
     title: "Pivot SG",
     slug: "pivot-sg",
-    imageCover: '/Pivot Light.png',
+    imageCover: '/pivot-light.png',
     projectURL: "https://pivot.sg/",
     description: [
       "User can choose Commercial or Residential site part.",
@@ -225,7 +225,7 @@ const htmlProjectDatas = [
   {
     title: "Edie Homepage",
     slug: "edie-homepage",
-    imageCover: '/Edie Homepage.png',
+    imageCover: '/edie-homepage.png',
     projectURL: "https://pandagenduts-edie-homepage.netlify.app/",
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FahnGupP4JjTdVJDTRfMRF2%2Fedie-homepage%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DdjtdnlAIzKNYxXGI-1",
@@ -240,7 +240,7 @@ const htmlProjectDatas = [
   {
     title: "Recipe Blog",
     slug: "recipe-blog",
-    imageCover: '/Recipe Blog.png',
+    imageCover: '/recipe-blog.png',
     projectURL: "https://pandagenduts-recipe-page.netlify.app/",
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F2jVBTSKeCYF0dIN6fi0stX%2Frecipe-blog-challenge%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DdjtdnlAIzKNYxXGI-1",
@@ -255,7 +255,7 @@ const htmlProjectDatas = [
   {
     title: "Checkout Page",
     slug: "checkout-page",
-    imageCover: '/Checkout Page.png',
+    imageCover: '/checkout-page.png',
     projectURL: "https://pandagenduts-checkout-page.netlify.app/",
     figmaEmbedURL:
       "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F4B0x88GhiZvgVlcQPSQ73D%2Fcheckout-page-challenge%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DdjtdnlAIzKNYxXGI-1",
