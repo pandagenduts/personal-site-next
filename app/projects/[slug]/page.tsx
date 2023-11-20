@@ -29,14 +29,15 @@ export async function generateMetadata({ params }: ParamsType) {
   const data = await getProjectDetail(params.slug);
   const { title, description } = data[0];
 
-  return {
+  return JSON.stringify({
     title: title,
     description: description,
-  };
+  });
 }
 
 export default async function ProjectDetail({ params }: ParamsType) {
   const data = await getProjectDetail(params.slug);
+  
   const projectData = data[0];
 
   return (
