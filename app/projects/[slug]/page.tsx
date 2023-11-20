@@ -15,17 +15,14 @@ async function getProjectDetail(slug: string) {
   return projectDetail;
 }
 
-export async function getStaticPaths() {
-  const paths: ParamsType[] = [];
+export async function generateStaticParams() {
+  const paths: any[] = [];
 
   allPortfolioDatas.forEach((item) => {
-    paths.push({ params: { slug: item.slug } });
+    paths.push({ slug: item.slug });
   });
 
-  return {
-    paths,
-    fallback: false,
-  };
+  return paths;
 }
 
 export async function generateMetadata({ params }: ParamsType) {

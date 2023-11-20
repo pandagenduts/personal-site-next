@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import HyperLink from '../../components/layout/HyperLink';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
@@ -6,8 +7,10 @@ const Hero = () => {
   return (
     <section className='mx-auto mb-12 flex max-w-3xl flex-col items-center px-4'>
       <div className='mb-10 w-40 rounded-full shadow-bsRound2 duration-700 hover:shadow-none'>
-        <img
-          src='Donny Rendi Portrait.png'
+        <Image
+          src='/Donny Rendi Portrait.png'
+          width={263}
+          height={263}
           className='rounded-full shadow-bsRound duration-500 hover:shadow-none'
           alt='Donny-Profile-Photo'
         />
@@ -36,7 +39,7 @@ const Hero = () => {
         </p>
         <p>Let my works do the talk below 🙂</p>
         <p className='mt-12 text-xs'>
-          PS: I didn't do the design, only the development part. Source is
+          PS: I didn&rsquo;t do the design, only the development part. Source is
           stated
         </p>
       </div>

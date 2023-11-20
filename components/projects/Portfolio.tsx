@@ -7,12 +7,13 @@ import {
 } from '@/datas/portfolioDatas';
 import { useEffect, useState } from 'react';
 import PortfolioCard from './PortfolioCard';
+import { ProjectData } from '../home/types';
 
 export default function Portfolio() {
   const [cardCategory, setCardCategory] = useState<
     'REACT' | 'WORDPRESS' | 'HTML'
   >('REACT');
-  const [projectDatas, setProjectDatas] = useState(reactProjectDatas);
+  const [projectDatas, setProjectDatas] = useState<ProjectData[]>(reactProjectDatas);
 
   const buttonClasses = 'duration-150 hover:text-bluePrimary';
 
