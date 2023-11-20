@@ -8,37 +8,34 @@ type ParamsType = {
   };
 };
 
+export const dynamicParams = false;
+
 async function getProjectDetail(slug: string) {
   const res = await fetch(`${process.env.BASE_URL}/api/projects/${slug}`);
-  const projectDetail = await res.json();
 
-  return projectDetail;
+  return res.json();
 }
 
-export async function generateStaticParams() {
-  const paths: any[] = [];
-
-  allPortfolioDatas.forEach((item) => {
-    paths.push({ slug: item.slug });
-  });
-
-  return paths;
-}
+// export async function generateStaticParams() {
+//   return allPortfolioDatas.map((item) => ({
+//     slug: item.slug,
+//   }))
+// }
 
 export async function generateMetadata({ params }: ParamsType) {
   const data = await getProjectDetail(params.slug);
   const { title, description } = data[0];
 
-  return JSON.stringify({
-    title: title,
-    description: description,
-  });
+  return { title, description };
 }
 
 export default async function ProjectDetail({ params }: ParamsType) {
   const data = await getProjectDetail(params.slug);
-  
   const projectData = data[0];
+
+  // const theSlugs = await fetch(`${process.env.BASE_URL}/api/projects`);
+  // const theSlugsData = await theSlugs.json();
+  // console.log(theSlugsData);
 
   return (
     <>
