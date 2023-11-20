@@ -16,11 +16,11 @@ async function getProjectDetail(slug: string) {
   return res.json();
 }
 
-// export async function generateStaticParams() {
-//   return allPortfolioDatas.map((item) => ({
-//     slug: item.slug,
-//   }))
-// }
+export async function generateStaticParams() {
+  return allPortfolioDatas.map((item) => ({
+    slug: item.slug,
+  }))
+}
 
 export async function generateMetadata({ params }: ParamsType) {
   const data = await getProjectDetail(params.slug);
