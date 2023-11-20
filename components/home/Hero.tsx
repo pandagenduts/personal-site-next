@@ -8,7 +8,7 @@ const Hero = () => {
     <section className='mx-auto mb-12 flex max-w-3xl flex-col items-center px-4'>
       <div className='mb-10 w-40 rounded-full shadow-bsRound2 duration-700 hover:shadow-none'>
         <Image
-          src='/Donny Rendi Portrait.png'
+          src='/donny-rendi-portrait.png'
           width={263}
           height={263}
           className='rounded-full shadow-bsRound duration-500 hover:shadow-none'
