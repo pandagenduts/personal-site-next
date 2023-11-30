@@ -3,6 +3,7 @@ import { Montserrat, Poppins } from 'next/font/google';
 import './globals.css';
 import Footer from '@/components/Footer';
 import ReduxProvider from '@/redux/ReduxProvider';
+import QueryParamProv from '@/components/QueryParamProvider';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -29,10 +30,12 @@ export default function RootLayout({
       <body
         className={`${poppins.className} ${poppins.variable} ${montserrat.variable}`}
       >
-        <ReduxProvider>
-          <main className='pt-9'>{children}</main>
-          <Footer />
-        </ReduxProvider>
+        <QueryParamProv>
+          <ReduxProvider>
+            <main className='pt-9'>{children}</main>
+            <Footer />
+          </ReduxProvider>
+        </QueryParamProv>
       </body>
     </html>
   );

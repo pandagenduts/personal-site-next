@@ -8,3 +8,5 @@ export type ProjectData = {
   techUsed?: string[];
   techExplanation?: string[];
 }
+
+export type ProjectCategories = 'REACT' | 'WORDPRESS' | 'HTML';
