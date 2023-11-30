@@ -20,7 +20,7 @@ const theButtons = [
     buttonText: 'WordPress',
   },
   {
-    category: 'html',
+    category: 'html-css-js',
     buttonText: 'HTML CSS JS',
   },
 ];
@@ -39,7 +39,7 @@ const Portfolio = () => {
 
   if (projectParams === 'react-nextjs') projectDatas = reactProjectDatas;
   else if (projectParams === 'wordpress') projectDatas = wordpressProjectDatas;
-  else if (projectParams === 'html') projectDatas = htmlProjectDatas;
+  else if (projectParams === 'html-css-js') projectDatas = htmlProjectDatas;
 
   return (
     <section className='container w-full px-4' id='portfolio'>
