@@ -1,5 +1,17 @@
 const reactProjectDatas = [
   {
+    title: "Next Shop",
+    slug: "next-shop",
+    imageCover: '/next-shop.png',
+    projectURL: "https://next-shop-flax-one.vercel.app/",
+    description: [
+      "A Fullstack React Next JS, Firebase & Midtrans Payment Gateway Eshop",
+      "The cart is built using Zustand and the data is processed on the backend. So its safe from client-side manipulation!",
+      "Its currently on progress. Stay Tuned! ^^",
+    ],
+    techUsed: ["React", "Next JS", "Tailwind CSS", "Zustand", "Next Auth", "Firebase", "Midtrans"],
+  },
+  {
     title: "Pixel Overture",
     slug: "pixel-overture",
     imageCover: '/pixel-overture.png',
@@ -9,11 +21,23 @@ const reactProjectDatas = [
     description: [
       "A pixel-perfect conversion from Figma w/ Next JS & Tailwind",
     ],
-    techUsed: ["React", "Next JS", "Tailwind CSS", "CVA", "Tailwind Merge"],
+    techUsed: ["React", "Next JS", "Tailwind CSS", "Framer Motion", "CVA", "Tailwind Merge"],
     techExplanation: [
       "Site is built using Next JS and Tailwind CSS",
       "The clock on header is built using Moment JS and Custom React Hooks (yep, it really shows the correct time 😃)",
     ],
+  },
+  {
+    title: "Omahku Landing Page",
+    slug: "omahku-landing-page",
+    imageCover: '/omahku.png',
+    projectURL: "https://omahku-landingpage.vercel.app/",
+    figmaEmbedURL:
+    "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FKWpmfGnVQKIntNzZ0RhcMF%2FOmahku%3Ftype%3Ddesign%26mode%3Ddesign%26t%3DQy1F6YpDu3Dvoex3-1",
+    description: [
+      "A pixel-perfect conversion from Figma w/ Next JS, Tailwind & Shadcn UI",
+    ],
+    techUsed: ["React", "Next JS", "Tailwind CSS", "Shadcn UI"],
   },
   {
     title: "Windbnb",
