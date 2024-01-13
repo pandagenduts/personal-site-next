@@ -18,15 +18,15 @@ const Hero = () => {
       <h1>Donny Rendi</h1>
       <h4 className='mb-8 font-medium'>FrontEnd | React | Next JS Developer</h4>
       <div className='mb-12 flex gap-6 text-bluePrimary'>
-        <HyperLink href='#' newTab className='duration-150 hover:scale-95'>
+        <HyperLink href='https://www.linkedin.com/in/donnyrendi/' newTab className='duration-150 hover:scale-95'>
           <FaLinkedin className='h-6 w-6' />
         </HyperLink>
-        <HyperLink href='#' newTab className='duration-150 hover:scale-95'>
+        <HyperLink href='https://github.com/pandagenduts' newTab className='duration-150 hover:scale-95'>
           <FaGithub className='h-6 w-6' />
         </HyperLink>
-        <HyperLink href='#' newTab className='duration-150 hover:scale-95'>
+        {/* <HyperLink href='#' newTab className='duration-150 hover:scale-95'>
           <MdEmail className='h-6 w-6' />
-        </HyperLink>
+        </HyperLink> */}
       </div>
       <div>
         <p>
