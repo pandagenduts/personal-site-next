@@ -48,7 +48,7 @@ const Portfolio = () => {
         ))}
       </div>
       <AnimatePresence>
-        {projectParams === 'react-nextjs' && <ReactPortfolio />}
+        {(projectParams === 'react-nextjs' || projectParams === '') && <ReactPortfolio />}
         {projectParams === 'wordpress' && <WordPressPortfolio />}
         {projectParams === 'html-css-js' && <HtmlPortfolio />}
       </AnimatePresence>
