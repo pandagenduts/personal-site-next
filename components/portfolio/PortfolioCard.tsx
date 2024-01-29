@@ -21,8 +21,8 @@ const PortfolioCard = ({ itemData }: { itemData: ProjectData }) => {
         hidden: { y: 10, opacity: 0 },
         visible: { y: 0, opacity: 1 },
       }}
-      exit={{ y: 10, opacity: 0 }}
-      transition={{ type: 'spring', duration: 0.5 }}
+      exit={{ opacity: 0 }}
+      transition={{ type: 'spring', duration: 0.35 }}
     >
       {imageCover === '' ? (
         <div className='w-full max-w-[395px] h-full min-h-[395px] bg-slate-500'></div>
