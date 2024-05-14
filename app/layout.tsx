@@ -16,7 +16,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Donny Rendi | Frontend Next JS Dev',
+  title: 'Donny Rendi | WordPress Elementor Designer & Developer',
   description: "Donny Rendi's Personal Site",
 };
 
