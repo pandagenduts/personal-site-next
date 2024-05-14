@@ -30,8 +30,8 @@ const Hero = () => {
       </div>
       <div>
         <p>
-          A self-taught FrontEnd React Next JS developer with about 2 years
-          experience in HTML, CSS, JavaScript and WordPress.
+          A WordPress Elementor & FrontEnd React Next JS Developer with about 2 years
+          experience.
         </p>
         <p>
           Specializing in slicing Figma design pixel-perfectly and responsive.
@@ -39,7 +39,7 @@ const Hero = () => {
         </p>
         <p>Let my works do the talk below 🙂</p>
         <p className='mt-12 text-xs'>
-          PS: I didn&rsquo;t do the design, only the development part. Source is
+          PS: Some of projects, I didn&rsquo;t do the design, only the development part. Source is
           stated
         </p>
       </div>

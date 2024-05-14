@@ -60,7 +60,7 @@ const Modal = () => {
           handleDeviceWidth={handleDeviceWidth}
           deviceView={deviceView}
         />
-        <div className='px-2 pt-2'>
+        <div className='px-2 pt-2 container'>
           {title && <h3>{title}</h3>}
           {techUsed && (
             <div className='mb-4 flex flex-wrap gap-1'>
