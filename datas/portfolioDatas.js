@@ -127,6 +127,47 @@ const reactProjectDatas = [
 
 const wordpressProjectDatas = [
   {
+    title: 'AutoRide',
+    slug: 'autoride',
+    imageCover: '/AutoRide.jpg',
+    projectURL: 'https://autoride.arundagi.com/',
+    description: [
+      'A Car Rental Website',
+      'User can filter cars by Rent Type, Transmission, etc.',
+      'Project of arundagi.com',
+    ],
+    techUsed: [
+      'WordPress',
+      'Elementor',
+      'Crocoblock',
+      'Custom HTML CSS JS',
+    ],
+    techExplanation: [
+      'Site is built with WordPress, Elementor, and Crocoblock.',
+    ],
+  },
+  {
+    title: 'Carental',
+    slug: 'carental',
+    imageCover: '/Carental.jpg',
+    projectURL: 'https://carental.arundagi.com/',
+    description: [
+      'A Car Rental Website',
+      'User can instantly go to a page with a specific filter by hierarchycal filter from homepage.',
+      'User can filter cars by Rent Type, Transmission, etc.',
+      'Project of arundagi.com',
+    ],
+    techUsed: [
+      'WordPress',
+      'Elementor',
+      'Crocoblock',
+      'Custom HTML CSS JS',
+    ],
+    techExplanation: [
+      'Site is built with WordPress, Elementor, and Crocoblock.',
+    ],
+  },
+  {
     title: 'Dongmul Food',
     slug: 'dongmul-food',
     imageCover: '/dongmul-food.png',

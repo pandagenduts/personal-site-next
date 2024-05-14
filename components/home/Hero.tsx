@@ -16,7 +16,7 @@ const Hero = () => {
         />
       </div>
       <h1>Donny Rendi</h1>
-      <h4 className='mb-8 font-medium'>FrontEnd | React | Next JS Developer</h4>
+      <h4 className='mb-8 font-medium'>WordPress Elementor Designer & Developer</h4>
       <div className='mb-12 flex gap-6 text-bluePrimary'>
         <HyperLink href='https://www.linkedin.com/in/donnyrendi/' newTab className='duration-150 hover:scale-95'>
           <FaLinkedin className='h-6 w-6' />
