@@ -147,6 +147,24 @@ const wordpressProjectDatas = [
     ],
   },
   {
+    title: 'Canda Tawa Travel',
+    slug: 'candatawatravel',
+    imageCover: '/candatawa-travel.jpg',
+    projectURL: 'https://candatawatravel.com/',
+    description: [
+      'An Indonesian Travel Agency website',
+    ],
+    techUsed: [
+      'WordPress',
+      'Elementor',
+      'Crocoblock',
+      'Custom HTML CSS JS',
+    ],
+    techExplanation: [
+      'Site is built with WordPress, Elementor, and Crocoblock.',
+    ],
+  },
+  {
     title: 'Carental',
     slug: 'carental',
     imageCover: '/Carental.jpg',
@@ -165,6 +183,53 @@ const wordpressProjectDatas = [
     ],
     techExplanation: [
       'Site is built with WordPress, Elementor, and Crocoblock.',
+    ],
+  },
+  {
+    title: 'ZhongXin',
+    slug: 'zhongxin',
+    imageCover: '/zhong-xin-dark.png',
+    projectURL: 'https://zhongxin-sg.com/en/',
+    description: [
+      'User can choose Chinese or English language.',
+      'Project is built together w/ team, I work as the WordPress Developer. Project from my previous company (Harnods).',
+    ],
+    techUsed: ['WordPress', 'WPML', 'Custom Theme', 'ACF'],
+    techExplanation: [
+      'Site is built by Custom Theme (PHP) and Multi Language w/ WPML. I handle the WordPress Development part.',
+    ],
+  },
+  {
+    title: 'Domu',
+    slug: 'domu',
+    imageCover: '/Domu.jpg',
+    projectURL: 'https://domu.co.id/',
+    description: [
+      'An Merchandise Business Website',
+    ],
+    techUsed: [
+      'WordPress',
+      'Elementor',
+      'Crocoblock',
+      'Custom HTML CSS JS',
+    ],
+    techExplanation: [
+      'Site is built with WordPress, Elementor, WooCommerce and Crocoblock.',
+    ],
+  },
+  {
+    title: 'Pivot SG',
+    slug: 'pivot-sg',
+    imageCover: '/pivot-light.png',
+    projectURL: 'https://pivot.sg/',
+    description: [
+      'User can choose Commercial or Residential site part.',
+      'User can navigate to another multisite by selector on header.',
+      'Project is built together w/ team, I work as the WordPress Developer. Project from my previous company (Harnods).',
+    ],
+    techUsed: ['WordPress', 'Multisite', 'Custom Theme', 'ACF'],
+    techExplanation: [
+      'Site is built by Custom Theme (PHP) and WordPress Multisite. I handle the WordPress Development part.',
     ],
   },
   {
@@ -188,35 +253,6 @@ const wordpressProjectDatas = [
     techExplanation: [
       'Site is built with WordPress, Elementor, WooCommerce and Crocoblock.',
       'The Calculator Page and Client Testimony background is built using vanilla JavaScript (yes I develop that feature).',
-    ],
-  },
-  {
-    title: 'ZhongXin',
-    slug: 'zhongxin',
-    imageCover: '/zhong-xin-dark.png',
-    projectURL: 'https://zhongxin-sg.com/en/',
-    description: [
-      'User can choose Chinese or English language.',
-      'Project is built together w/ team, I work as the WordPress Developer. Project from my previous company (Harnods).',
-    ],
-    techUsed: ['WordPress', 'WPML', 'Custom Theme', 'ACF'],
-    techExplanation: [
-      'Site is built by Custom Theme (PHP) and Multi Language w/ WPML. I handle the WordPress Development part.',
-    ],
-  },
-  {
-    title: 'Pivot SG',
-    slug: 'pivot-sg',
-    imageCover: '/pivot-light.png',
-    projectURL: 'https://pivot.sg/',
-    description: [
-      'User can choose Commercial or Residential site part.',
-      'User can navigate to another multisite by selector on header.',
-      'Project is built together w/ team, I work as the WordPress Developer. Project from my previous company (Harnods).',
-    ],
-    techUsed: ['WordPress', 'Multisite', 'Custom Theme', 'ACF'],
-    techExplanation: [
-      'Site is built by Custom Theme (PHP) and WordPress Multisite. I handle the WordPress Development part.',
     ],
   },
   {
