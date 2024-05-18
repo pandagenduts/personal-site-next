@@ -17,7 +17,7 @@ export default function PortfolioButton(props: Props) {
       className={`duration-150 hover:text-bluePrimary ${
         activeCardCategory === category ? 'text-bluePrimary' : ''
       } ${
-        activeCardCategory === '' && category === 'react-nextjs'
+        activeCardCategory === '' && category === 'wordpress'
           ? 'text-bluePrimary'
           : ''
       }`}

@@ -9,12 +9,12 @@ import HtmlPortfolio from '../portfolio/HtmlPortfolio';
 
 const theButtons = [
   {
-    category: 'react-nextjs',
-    buttonText: 'React & Next JS',
-  },
-  {
     category: 'wordpress',
     buttonText: 'WordPress',
+  },
+  {
+    category: 'react-nextjs',
+    buttonText: 'React & Next JS',
   },
   {
     category: 'html-css-js',
@@ -48,8 +48,8 @@ const Portfolio = () => {
         ))}
       </div>
       <AnimatePresence>
-        {(projectParams === 'react-nextjs' || projectParams === '') && <ReactPortfolio />}
-        {projectParams === 'wordpress' && <WordPressPortfolio />}
+        {(projectParams === 'wordpress' || projectParams === '') && <WordPressPortfolio />}
+        {projectParams === 'react-nextjs' && <ReactPortfolio />}
         {projectParams === 'html-css-js' && <HtmlPortfolio />}
       </AnimatePresence>
     </section>
